@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceTradingBot", "BinanceTradingBot\BinanceTradingBot.csproj", "{C9654BA5-4387-4C46-92C0-402788E86C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9654BA5-4387-4C46-92C0-402788E86C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9654BA5-4387-4C46-92C0-402788E86C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9654BA5-4387-4C46-92C0-402788E86C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9654BA5-4387-4C46-92C0-402788E86C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B523361F-603B-4776-91EF-9051A08E8C6C}
+	EndGlobalSection
+EndGlobal
