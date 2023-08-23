@@ -72,13 +72,13 @@ public class BinanceDataFetcher
             var info = line.Split(',');
             var data = new MarketData
             {
-                TimeStamp = info[0],
+                OpenTimeStamp = info[0].ToLong().ToDateTime(),
                 OpenPrice = info[1].ToDecimal(),
                 HighestPrice = info[2].ToDecimal(),
                 LowPrice = info[3].ToDecimal(),
                 ClosePrice = info[4].ToDecimal(),
                 Volume = info[5].ToDecimal(),
-                CloseTimeStamp = info[6],
+                CloseTimeStamp = info[6].ToLong().ToDateTime(),
                 QuoteAssetVolume = info[7].ToDecimal(),
                 NumberOfTrades = info[8].ToInt(),
                 TakerBuyBaseAssetVolume = info[9].ToDecimal(),
